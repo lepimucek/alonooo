@@ -14,6 +14,10 @@ while True:
 
     new = raw_input('Dodaj še enega? (YES/NO')
     if new != 'YES':
-        breakk
+        break
+
 print 'All tasks: {0}'.format(todo_list)
+
+for task in todo_list:
+    print task
 print 'END'
